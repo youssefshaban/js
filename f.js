@@ -9,11 +9,6 @@ userForm.onsubmit = (e) => {
       name: data.get("fname"),
       job: data.get("lname"),
    };
-   /*   for (let value of data) {
-      console.table(value[1]);
-   } */
-   // console.log(request);
-   //console.log(data.get("fname"));
    postToAPI(url, request);
 };
 
